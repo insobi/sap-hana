@@ -59,9 +59,9 @@ resource "azurerm_virtual_machine" "vm" {
   }
 
   storage_image_reference {
-    publisher = "SUSE"
-    offer     = "sles-sap-12-sp5"
-    sku       = "gen1"
+    publisher = "suse"
+    offer     = "sles-sap"
+    sku       = "12-sp4"
     version   = "latest"
   }
 
